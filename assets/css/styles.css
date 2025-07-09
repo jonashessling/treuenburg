@@ -2,7 +2,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Libre Baskerville' !important;
     font-weight: 600 !important;
 }
+
+.btn {
+    border-radius: 0 !important;
+}
+
+/*------------------------------------------------------------------------------------------ Navbar: */
+
+.navbar-custom {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease !important;
+    padding: 20px 0 !important;
+}
+
+.navbar-scrolled {
+    background-color: #001f3f !important;
+}
+
+@media (max-width: 991.98px) {
+  .offcanvas-header,
+  .offcanvas-body {
+    background-color: #001f3f !important;
+  }
+}
+
+/*------------------------------------------------------------------------------------------ Hero: */
