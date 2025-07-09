@@ -8,31 +8,36 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Libre Baskerville' !important;
-    font-weight: 600 !important;
+  font-family: 'Libre Baskerville' !important;
+  font-weight: 600 !important;
+  color: #032a4d !important;
 }
 
+/*Grey: #f8f9fa*/
+
 .btn {
-    border-radius: 0 !important;
+  border-radius: 5px !important;
+  background-color: #032a4d !important;
+  border: 1px solid #032a4d !important;
 }
 
 /*------------------------------------------------------------------------------------------ Navbar: */
 
-.navbar-custom {
-    background-color: transparent !important;
-    transition: background-color 0.3s ease !important;
-    padding: 20px 0 !important;
-}
-
-.navbar-scrolled {
-    background-color: #001f3f !important;
-}
-
-@media (max-width: 991.98px) {
-  .offcanvas-header,
-  .offcanvas-body {
-    background-color: #001f3f !important;
-  }
+.navbar {
+  padding: 20px 0 !important;
+  background-color: white !important;
+  border-bottom: 2px solid #f8f9fa;
 }
 
 /*------------------------------------------------------------------------------------------ Hero: */
+
+.hero {
+  padding: 100px 0 0;
+}
+
+.hero-img {
+  width: 100%;
+  height: 70vh;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+}

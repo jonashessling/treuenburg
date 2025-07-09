@@ -22,38 +22,31 @@
 
 <body>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+  <nav class="navbar navbar-expand-lg sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <h2 class="m-0">TREUENBURG</h2>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
-        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#"><h3 class="m-0">TREUENBURG</h3></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-        aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">TREUENBURG</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">TREUENBURG</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Start</a>
+              <a class="nav-link" aria-current="page" href="#">Unternehmensnachfolge</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Unternehmenskauf</a>
+              <a class="nav-link" href="#">Soziale Verantwortung</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Unsere Mission</a>
+              <a class="nav-link" href="#">Arbeitsweise</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Erfahrungen</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-light ms-lg-2" href="#">Kontakt</a>
+              <a class="btn btn-primary ms-lg-2 mt-lg-0 mt-2" href="#">Kontakt</a>
             </li>
           </ul>
         </div>
@@ -63,6 +56,24 @@
 
   <!--Main-->
   <main>
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <h1>Eine erfolgreiche Nachfolge für Ihr Lebenswerk</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolore repudiandae quasi molestiae, 
+              deserunt facilis doloremque cum cupiditate est nostrum odit a voluptatem sapiente vero vel, 
+              maiores asperiores? Enim, voluptates.
+            </p>
+            <a class="btn btn-primary mb-lg-0 mb-4" href="">Mehr erfahren</a>
+          </div>
+          <div class="col-lg-6 col-12">
+            <img class="hero-img" src="assets/images/test.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!--Footer-->
