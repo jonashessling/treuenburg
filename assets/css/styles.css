@@ -98,6 +98,7 @@ h6 {
   background-color: white !important;
   border-radius: 2px !important;
   box-shadow: none !important;
+  padding: 8px !important;
 }
 
 .navbar-toggler i {
@@ -149,10 +150,10 @@ h6 {
   /* damit Klicks durchgelassen werden */
 }
 
-/*------------------------------------------------------------------------------------------ Mediaquery: */
+/*------------------------------------------------------------------------------------------ Section-1: */
 
 .section-1 {
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 .img-container-section-1 {
@@ -165,6 +166,72 @@ h6 {
   background-repeat: no-repeat;
 }
 
+/*------------------------------------------------------------------------------------------ Section-2: */
+
+.section-2 {
+  padding: 150px 0;
+  background-color: #f8f9fa;
+}
+
+.content-container-1-section-2 {
+  padding: 40px 30px;
+  border-radius: 2px;
+  background: linear-gradient(to top, rgba(3, 42, 77, 0.9), rgba(3, 42, 77, 0)),
+    url('../images/construction-site.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  /* Optional: für gute Lesbarkeit */
+  position: relative;
+}
+
+.content-container-2-section-2 {
+  padding: 40px 30px;
+  border-radius: 2px;
+  background: linear-gradient(to top, rgba(3, 42, 77, 0.9), rgba(3, 42, 77, 0)),
+    url('../images/explaining-ipad.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  /* Optional: für gute Lesbarkeit */
+  position: relative;
+}
+
+.content-container-3-section-2 {
+  padding: 40px 30px;
+  border-radius: 2px;
+  background: linear-gradient(to top, rgba(3, 42, 77, 0.9), rgba(3, 42, 77, 0)),
+    url('../images/team.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  /* Optional: für gute Lesbarkeit */
+  position: relative;
+}
+
+.content-container-4-section-2 {
+  padding: 40px 30px;
+  border-radius: 2px;
+  background: linear-gradient(to top, rgba(3, 42, 77, 0.9), rgba(3, 42, 77, 0)),
+    url('../images/windpark.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  /* Optional: für gute Lesbarkeit */
+  position: relative;
+}
+
+.h4-section-2 {
+  color: white !important;
+}
+
+.p-section-2 {
+  color: white !important;
+  margin: 0 !important;
+}
+
+.hr-section-2 {
+  border: 1px solid white !important;
+  opacity: 100% !important;
+  width: 50%;
+}
+
 /*------------------------------------------------------------------------------------------ Mediaquery: */
 
 @media (max-width: 768px) {
@@ -174,6 +241,11 @@ h6 {
 
   .hero {
     padding: 50px 0 0;
+  }
+
+  .section-1,
+  .section-2 {
+    padding: 100px 0;
   }
 }
 
