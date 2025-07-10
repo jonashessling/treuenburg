@@ -9,35 +9,212 @@ h4,
 h5,
 h6 {
   font-family: 'Libre Baskerville' !important;
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   color: #032a4d !important;
 }
 
 /*Grey: #f8f9fa*/
 
 .btn {
-  border-radius: 5px !important;
+  border-radius: 0 !important;
+}
+
+.btn-white {
+  background-color: white !important;
+  color: #032a4d !important;
+  border: 1px solid white !important;
+  border-radius: 2px !important;
+  transition: .3s;
+}
+
+.btn-white:hover {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.btn-blue {
   background-color: #032a4d !important;
+  color: white !important;
+  border: 1px solid #032a4d !important;
+  border-radius: 2px !important;
+  transition: .3s;
+}
+
+.btn-blue:hover {
+  background-color: transparent !important;
+  color: #032a4d !important;
   border: 1px solid #032a4d !important;
 }
 
 /*------------------------------------------------------------------------------------------ Navbar: */
 
+.logo-nav {
+  width: 300px;
+}
+
 .navbar {
-  padding: 20px 0 !important;
+  padding: 15px 0 !important;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar.transparent {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.navbar.scrolled {
+  background-color: #032a4d !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.offcanvas-body,
+.offcanvas-header {
+  background-color: #032a4d !important;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid white;
+}
+
+.x-button {
+  background: transparent;
+  border: none;
+}
+
+.x-button i {
+  color: white !important;
+}
+
+.logo-offcanvas {
+  width: 200px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar-toggler {
+  border: none !important;
   background-color: white !important;
-  border-bottom: 2px solid #f8f9fa;
+  border-radius: 2px !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler i {
+  font-size: xx-large;
+  color: #032a4d;
 }
 
 /*------------------------------------------------------------------------------------------ Hero: */
 
 .hero {
-  padding: 100px 0 0;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
-.hero-img {
+.hero h1 {
+  color: white !important;
+}
+
+.hero p {
+  color: white !important;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 70vh;
-  border-radius: 10px 10px 0 0;
+  height: 100%;
   object-fit: cover;
+  z-index: 0;
+}
+
+.hero .container {
+  z-index: 2;
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: linear-gradient(to right, rgba(3, 42, 77, 0.85), rgba(3, 42, 77, 0) 70%);
+  pointer-events: none;
+  /* damit Klicks durchgelassen werden */
+}
+
+/*------------------------------------------------------------------------------------------ Mediaquery: */
+
+.section-1 {
+  padding: 100px 0;
+}
+
+.img-container-section-1 {
+  border-radius: 2px;
+  height: 70vh;
+  background-image: url(../images/test.jpg);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*------------------------------------------------------------------------------------------ Mediaquery: */
+
+@media (max-width: 768px) {
+  .logo-nav {
+    width: 230px;
+  }
+
+  .hero {
+    padding: 50px 0 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 60px !important;
+  }
+
+  h2 {
+    font-size: 50px !important;
+  }
+
+  h3 {
+    font-size: 40px !important;
+  }
+
+  h4 {
+    font-size: 30px !important;
+  }
+
+  h5 {
+    font-size: 25px !important;
+  }
+
+  h6 {
+    font-size: 20px !important;
+  }
+
+  p {
+    font-size: 18px !important;
+  }
+
+  a {
+    font-size: 18px !important;
+  }
+
+  li {
+    font-size: 18px !important;
+  }
+
+  small {
+    font-size: 17px !important;
+  }
 }
