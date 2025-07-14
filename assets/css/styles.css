@@ -232,6 +232,46 @@ h6 {
   width: 50%;
 }
 
+/*------------------------------------------------------------------------------------------ Section-3: */
+
+.section-3 {
+  padding: 150px 0;
+}
+
+.slider-container {
+  overflow-x: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.slider-item {
+  flex: 0 0 auto; /* Wichtig: verhindert Zusammendrücken */
+  width: 300px;
+  height: 500px;
+  background-color: #032a4d;
+  border-radius: 2px;
+  scroll-snap-align: start;
+  padding: 20px;
+  color: white;
+}
+
+.slider-icon {
+  width: 50px;
+}
+
+.slider-heading {
+  color: white !important;
+  margin: 0 !important;
+}
+
+.section-3-hr {
+  opacity: 100% !important;
+  border: 1px solid white !important;
+  width: 50% !important;
+}
+
 /*------------------------------------------------------------------------------------------ Mediaquery: */
 
 @media (max-width: 768px) {
@@ -244,7 +284,8 @@ h6 {
   }
 
   .section-1,
-  .section-2 {
+  .section-2,
+  .section-3 {
     padding: 100px 0;
   }
 }
