@@ -342,11 +342,57 @@ h6 {
   margin: 0 !important;
 }
 
+/*------------------------------------------------------------------------------------------ Section-6: */
+
+.section-6 {
+  padding: 150px 0;
+  background-color: #f8f9fa !important;
+}
+
+.content-container-team {
+  position: relative;
+  background-image: url('../images/thumbnail_Robert_Ridolfi.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.content-container-team h5 {
+  color: white !important;
+}
+
+.content-container-team p {
+  margin: 0 !important;
+}
+
+.content-container-team::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to top, #032a4d, rgba(3, 42, 77, 0));
+  z-index: 1;
+}
+
+.text-overlay {
+  position: relative;
+  z-index: 2;
+  padding: 300px 20px 20px;
+  width: 100%;
+  background: transparent;
+}
+
 /*------------------------------------------------------------------------------------------ Mediaquery: */
 
 @media (max-width: 768px) {
   .logo-nav {
-    width: 230px;
+    width: 200px;
   }
 
   .hero {
@@ -357,7 +403,8 @@ h6 {
   .section-2,
   .section-3,
   .section-4,
-  .section-5 {
+  .section-5,
+  .section-6 {
     padding: 100px 0;
   }
 }
