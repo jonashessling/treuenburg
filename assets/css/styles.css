@@ -388,6 +388,35 @@ h6 {
   background: transparent;
 }
 
+/*------------------------------------------------------------------------------------------ Section-6: */
+
+.section-7 {
+  padding: 150px 0;
+}
+
+.content-container-section-7 {
+  padding: 50px 20px;
+  background-color: #032a4d;
+  border-radius: 2px;
+}
+
+.content-container-section-7 h3 {
+  color: white !important;
+}
+
+.content-container-section-7 p {
+  color: white !important;
+}
+
+.content-container-section-7 i {
+  margin-right: 10px;
+}
+
+.content-container-section-7 img {
+  width: 200px;
+  margin: 0 auto;
+}
+
 /*------------------------------------------------------------------------------------------ Mediaquery: */
 
 @media (max-width: 768px) {
@@ -404,7 +433,8 @@ h6 {
   .section-3,
   .section-4,
   .section-5,
-  .section-6 {
+  .section-6,
+  .section-7 {
     padding: 100px 0;
   }
 }
