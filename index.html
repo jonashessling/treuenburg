@@ -39,16 +39,28 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Unternehmensnachfolge</a>
+              <a class="nav-link" aria-current="page" href="#start">Startseite</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Soziale Verantwortung</a>
+              <a class="nav-link" aria-current="page" href="#was-wir-tun">Unsere Aufgabe</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Arbeitsweise</a>
+              <a class="nav-link" aria-current="page" href="#arbeitsweise">Unsere Arbeitsweise</a>
             </li>
             <li class="nav-item">
-              <a class="btn btn-white mt-2" href="#">Kontaktieren Sie uns</a>
+              <a class="nav-link" aria-current="page" href="#beteiligungsfokus">Unser Beteiligungsfokus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#ablauf">Ablauf einer erfolgreichen Nachfolge</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#nachfolge">Unsere Vision für Ihr Lebenswerk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#team">Über uns</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-white mt-2" href="#kontakt">Kontaktieren Sie uns</a>
             </li>
           </ul>
         </div>
@@ -58,7 +70,7 @@
 
   <!--Main-->
   <main>
-    <section class="hero position-relative overflow-hidden">
+    <section id="start" class="hero position-relative overflow-hidden">
       <video autoplay muted loop playsinline class="hero-video">
         <source src="assets/videos/hero-background.mp4" type="video/mp4">
         Ihr Browser unterstützt dieses Video nicht.
@@ -69,17 +81,18 @@
           <div class="col-lg-7 col-12 text-white">
             <h1>Eine erfolgreiche Nachfolge für Ihr Lebenswerk</h1>
             <p>
-              Sie haben ein erfolgreiches Unternehmen aufgebaut, geführt, geprägt. Jetzt ist es Zeit, über die Zukunft nachzudenken.
+              Sie haben ein erfolgreiches Unternehmen aufgebaut, geführt, geprägt. Jetzt ist es Zeit, über die Zukunft
+              nachzudenken.
               Treuenburg ist Ihr Partner für eine vertrauensvolle Unternehmensnachfolge im Mittelstand – mit Weitblick,
               Verantwortung und echtem Interesse an der Fortführung Ihres Lebenswerkes.
             </p>
-            <a class="btn btn-white mb-lg-0 mb-4" href="">Mehr erfahren</a>
+            <a class="btn btn-white mb-lg-0 mb-4" href="#was-wir-tun">Mehr erfahren</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-1">
+    <section id="was-wir-tun" class="section-1">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-12">
@@ -100,7 +113,7 @@
                 + Verlässlich
               </strong>
             </p>
-            <a href="" class="btn btn-blue mb-4">Kontaktieren Sie uns</a>
+            <a href="#kontakt" class="btn btn-blue mb-4">Kontaktieren Sie uns</a>
           </div>
           <div class="col-lg-6 col-12">
             <div class="img-container-section-1"></div>
@@ -109,7 +122,7 @@
       </div>
     </section>
 
-    <section class="section-2">
+    <section id="arbeitsweise" class="section-2">
       <div class="container">
         <div class="row">
           <div class="col-12 mb-4">
@@ -137,8 +150,8 @@
               <h4 class="h4-section-2">Vertrauen als Grundlage</h4>
               <hr class="hr-section-2">
               <p class="p-section-2">
-                Eine Nachfolge gelingt nur, wenn Vertrauen da ist. Wir übernehmen nicht nur,
-                sondern haben echtes Interesse und Respekt vor Ihrer Geschichte.
+                Eine Nachfolge gelingt nur, wenn Vertrauen da ist. Wir haben immer echtes Interesse und Respekt vor
+                Ihrer Geschichte.
               </p>
             </div>
           </div>
@@ -166,7 +179,7 @@
       </div>
     </section>
 
-    <section class="section-3">
+    <section id="beteiligungsfokus" class="section-3">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -177,7 +190,7 @@
               Wenn Sie Wert legen auf eine verlässliche Nachfolgelösung, bei der Menschen, Werte und das Lebenswerk
               im Mittelpunkt stehen, dann sollten wir miteinander sprechen.
             </p>
-            <a href="" class="btn btn-blue mb-4">Kontaktieren Sie uns</a>
+            <a href="#kontakt" class="btn btn-blue mb-4">Kontaktieren Sie uns</a>
           </div>
         </div>
 
@@ -204,18 +217,8 @@
             </p>
           </div>
           <div class="slider-item">
-            <img src="assets/images/icons/handwerk-icon.png" class="slider-icon mb-4"
-              alt="beschreibendes Icon der Branche">
-            <h4 class="slider-heading">Handwerksnahe Betriebe</h4>
-            <hr class="section-3-hr">
-            <p>
-              Mittelständische Unternehmen mit hoher handwerklicher Kompetenz und regionaler Verankerung,
-              z.B. in der Bauzulieferung, Innenausstattung oder Gebäudetechnik.
-            </p>
-          </div>
-          <div class="slider-item">
             <img src="assets/images/icons/it-icon.png" class="slider-icon mb-4" alt="beschreibendes Icon der Branche">
-            <h4 class="slider-heading">IT & Digitalisierung</h4>
+            <h4 class="slider-heading">IT &<br>Software</h4>
             <hr class="section-3-hr">
             <p>
               Software- und IT-Dienstleister mit speziellem Branchenfokus,
@@ -223,34 +226,25 @@
             </p>
           </div>
           <div class="slider-item">
-            <img src="assets/images/icons/sale-icon.png" class="slider-icon mb-4" alt="beschreibendes Icon der Branche">
-            <h4 class="slider-heading">Vertrieb & Handel</h4>
-            <hr class="section-3-hr">
-            <p>
-              Handels- oder Vertriebsfirmen mit technischer Produkttiefe, eigener Marke oder starker Kundenbindung
-              – besonders im B2B-Bereich.
-            </p>
-          </div>
-          <div class="slider-item">
-            <img src="assets/images/icons/software-icon.png" class="slider-icon mb-4"
-              alt="beschreibendes Icon der Branche">
-            <h4 class="slider-heading">Technologie & Software</h4>
-            <hr class="section-3-hr">
-            <p>
-              Mittelständisch geprägte Unternehmen aus den Bereichen Technologiedienstleistungen,
-              spezialisierte Medienangebote oder Telekommunikation –
-              sofern nachhaltig aufgestellt und nicht rein wachstumsgetrieben.
-            </p>
-          </div>
-          <div class="slider-item">
             <img src="assets/images/icons/estate-icon.png" class="slider-icon mb-4"
               alt="beschreibendes Icon der Branche">
-            <h4 class="slider-heading">Immobiliennahe Unternehmungen</h4>
+            <h4 class="slider-heading">Immobiliennahe Unternehmen</h4>
             <hr class="section-3-hr">
             <p>
               Unternehmen im Umfeld von Immobilienmanagement,
               projektnahem Facility Services oder spezialisierten Dienstleistungen entlang des Lebenszyklus von
               Immobilien.
+            </p>
+          </div>
+          <div class="slider-item">
+            <img src="assets/images/icons/software-icon.png" class="slider-icon mb-4"
+              alt="beschreibendes Icon der Branche">
+            <h4 class="slider-heading">Technologie & Digitalisierung</h4>
+            <hr class="section-3-hr">
+            <p>
+              Mittelständisch geprägte Unternehmen aus den Bereichen Technologiedienstleistungen,
+              spezialisierte Medienangebote oder Telekommunikation –
+              sofern nachhaltig aufgestellt und nicht rein wachstumsgetrieben.
             </p>
           </div>
           <div class="slider-item">
@@ -263,11 +257,30 @@
               Pharma oder Industrie – mit Fokus auf Nachhaltigkeit und Qualität.
             </p>
           </div>
+          <div class="slider-item">
+            <img src="assets/images/icons/handwerk-icon.png" class="slider-icon mb-4"
+              alt="beschreibendes Icon der Branche">
+            <h4 class="slider-heading">Handwerksnahe Betriebe</h4>
+            <hr class="section-3-hr">
+            <p>
+              Mittelständische Unternehmen mit hoher handwerklicher Kompetenz und regionaler Verankerung,
+              z.B. in der Bauzulieferung, Innenausstattung oder Gebäudetechnik.
+            </p>
+          </div>
+          <div class="slider-item">
+            <img src="assets/images/icons/sale-icon.png" class="slider-icon mb-4" alt="beschreibendes Icon der Branche">
+            <h4 class="slider-heading">Vertrieb & Handel</h4>
+            <hr class="section-3-hr">
+            <p>
+              Handels- oder Vertriebsfirmen mit technischer Produkttiefe, eigener Marke oder starker Kundenbindung
+              – besonders im B2B-Bereich.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section-4">
+    <section id="ablauf" class="section-4">
       <div class="container">
         <div class="row">
           <div class="col-12 mb-4">
@@ -277,34 +290,50 @@
               Unser gemeinsamer Weg beginnt mit einem offenen Gespräch und endet nicht mit der Unterschrift,
               sondern mit einer stabilen Zukunft für Ihr Unternehmen.
             </p>
-            <a href="" class="btn btn-white">Kontaktieren Sie uns</a>
+            <a href="#kontakt" class="btn btn-white">Kontaktieren Sie uns</a>
           </div>
-          <div class="col-12 col-lg-4 mb-lg-0 mb-3">
+          <div class="col-12 col-lg-3 mb-lg-0 mb-3">
             <div class="content-container-section-4">
               <img src="assets/images/group-people-working-out-business-plan-office.jpg" alt="">
-              <h5>1. Vertrauliches Kennenlernen</h5>
-              <p>Wir hören zu. Und stellen die richtigen Fragen.</p>
+              <h5>1. Lebenswerk geschaffen</h5>
+              <p>
+                Jahrzehntelange Arbeit, Mut und Weitblick haben ein wirtschaftlich starkes,
+                stabiles Unternehmen entstehen lassen – mit klarer Identität und tiefer regionaler Verwurzelung.
+              </p>
             </div>
           </div>
-          <div class="col-12 col-lg-4 mb-lg-0 mb-3">
+          <div class="col-12 col-lg-3 mb-lg-0 mb-3">
             <div class="content-container-section-4">
               <img src="assets/images/25060.jpg" alt="">
-              <h5>2. Individuelles Nachfolgekonzept</h5>
-              <p>Keine Schablonen, sondern ein Fahrplan, der zu Ihrem Unternehmen passt.</p>
+              <h5>2. Verantwortung übernommen</h5>
+              <p>
+                Nach der erfolgreichen Übergabe steht für uns der Erhalt von Kultur,
+                Wissen und Mitarbeiterbindung im Vordergrund – als Fundament für jede Weiterentwicklung.
+              </p>
             </div>
           </div>
-          <div class="col-12 col-lg-4">
+          <div class="col-12 col-lg-3 mb-lg-0 mb-3">
             <div class="content-container-section-4">
               <img src="assets/images/successful-businessmen-talking-each-other.jpg" alt="">
-              <h5>3. Gemeinsam Übergang gestalten</h5>
-              <p>Sie entscheiden, wie aktiv Sie im Übergang bleiben. Wir sichern Stabilität und Kontinuität.</p>
+              <h5>3. Zukunft<br>gestalten</h5>
+              <p>
+                Auf dieser Basis investieren wir gezielt in Digitalisierung, Technologien und neue Marktchancen –
+                damit Ihr Lebenswerk zukunftssicher wachsen kann.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 mb-lg-0 mb-3">
+            <div class="content-container-section-4">
+              <img src="assets/images/callcenter.jpg" alt="">
+              <h5>Ihre Nachfolge beginnt mit der Kontakaufnahme mit uns.</h5>
+              <a class="btn btn-blue" href="#kontakt">Jetzt Kontakt aufnehmen</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-5">
+    <section id="nachfolge" class="section-5">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -317,7 +346,7 @@
           </div>
           <div class="col-lg-6 col-12 mb-lg-0 mb-4">
             <div class="content-container-section-5">
-              <h5>Das Lebenswerk bewahren</h5>
+              <h5>Das Lebenswerk zukunftssicher & langfristig bewahren</h5>
               <hr>
               <p>
                 Was ein Unternehmer über Jahre aufgebaut hat, verdient Respekt – und einen Fortgang,
@@ -329,7 +358,7 @@
                 <li>Ihr Unternehmen bleibt unabhängig und wird nicht in eine Konzernstruktur eingegliedert</li>
                 <li>Unser Prinzip: „Verlässliche Kontinuität statt künstlicher Veränderung“</li>
               </ul>
-              <a href="" class="btn btn-white mt-4">Kontaktieren sie uns</a>
+              <a href="#kontakt" class="btn btn-white mt-4">Kontaktieren sie uns</a>
             </div>
           </div>
           <div class="col-lg-6 col-12">
@@ -346,14 +375,14 @@
                 <li>Investitionen in Menschen, Systeme und Know-how – statt kurzfristiger Einschnitte</li>
                 <li>Standortsicherung mit Blick auf langfristige Entwicklungsperspektiven</li>
               </ul>
-              <a href="" class="btn btn-white mt-4">Kontaktieren sie uns</a>
+              <a href="#kontakt" class="btn btn-white mt-4">Kontaktieren sie uns</a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-6" id="team">
+    <section id="team" class="section-6" id="team">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-6">
@@ -367,7 +396,12 @@
               Diese Vielseitigkeit erlaubt uns, mit Augenmaß und Verständnis auf individuelle Situationen einzugehen –
               und tragfähige Lösungen zu entwickeln, die Bestand haben.
             </p>
-            <a href="" class="btn btn-blue mb-4">Kontaktieren Sie uns</a>
+            <h5>30+ Transaktionen</h5>
+            <hr class="w-50">
+            <h5>450+ Mio. € Transaktionsvolumen</h5>
+            <hr class="w-50">
+            <h5>20+ Jahre Erfahrung</h5>
+            <a href="#kontakt" class="btn btn-blue mb-4 mt-3">Kontaktieren Sie uns</a>
           </div>
           <div class="col-lg-6 col-12">
             <div class="content-container-team">
@@ -387,28 +421,28 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-12">
-            <h2>Kontaktieren Sie uns</h2>
+            <h2 class="heading-contact">Kontaktieren Sie uns</h2>
             <p>
-              Unser Standort in Frankfurt am Main, im Herzen Deutschlands, verbindet uns mit einem starken Netzwerk 
-              aus Unternehmern, Beratern und Entscheidungsträgern. 
+              Unser Standort in Frankfurt am Main, im Herzen Deutschlands, verbindet uns mit einem starken Netzwerk
+              aus Unternehmern, Beratern und Entscheidungsträgern.
               <br>
-              In unserem Denken und Handeln sind wir bodenständig: 
-              Wir sprechen die Sprache des Mittelstands und verstehen, 
+              In unserem Denken und Handeln sind wir bodenständig:
+              Wir sprechen die Sprache des Mittelstands und verstehen,
               worauf es bei einer verantwortungsvollen Unternehmensnachfolge wirklich ankommt.
             </p>
           </div>
           <div class="col-lg-6 col-12 text-center">
             <div class="content-container-section-7">
-              <h3>Unser Standort</h3>
+              <h2>Unser Standort</h2>
               <img src="assets/images/icon-frankfurt.png" alt="Icon von der Skyline von Frankfurt">
               <p>
                 Sebastian-Kneipp-Straße 41
                 <br>
                 60439 Frankfurt am Main
               </p>
-              <a href="" class="btn btn-white mb-3"><i class="bi bi-telephone-fill"></i>Telefon: +49 69 505064-365</a>
+              <a href="tel:+4969505064365" class="btn btn-white mb-3"><i class="bi bi-telephone-fill"></i>Telefon: +49 69 505064-365</a>
               <br>
-              <a href="" class="btn btn-white"><i class="bi bi-envelope-at-fill"></i>E-Mail: info@treuenburg.eu</a>
+              <a href="mailto:info@treuenburg.eu" class="btn btn-white"><i class="bi bi-envelope-at-fill"></i>E-Mail: info@treuenburg.eu</a>
             </div>
           </div>
         </div>
@@ -418,7 +452,59 @@
   </main>
 
   <!--Footer-->
-  <footer></footer>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img class="mb-4" src="assets/images/logo-treuenburg.png" alt="Logo von Treuenburg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <h6>Adresse:</h6>
+          <p>
+            Sebastian-Kneipp-Straße 41
+            <br>
+            60439 Frankfurt am Main
+          </p>
+          <h6>Kontakt:</h6>
+          <p>
+            Telefon: +49 69 505064-365
+            <br>
+            E-Mail: info@treuenburg.eu
+          </p>
+        </div>
+        <div class="col-lg-4 col-12">
+          <h6>Seiten:</h6>
+          <p>
+            <a href="#start">Startseite</a>
+            <br>
+            <a href="#was-wir-tun">Was wir tun</a>
+            <br>
+            <a href="#arbeitsweise">Unsere Arbeitsweise</a>
+            <br>
+            <a href="#beteiligungsfokus">Unser Beteiligungsfokus</a>
+            <br>
+            <a href="#ablauf">Ablauf einer erfolgreichen Nachfolge</a>
+            <br>
+            <a href="#nachfolge">Unsere Vision für Ihr Lebenswerk</a>
+            <br>
+            <a href="#team">Über uns</a>
+            <br>
+            <a href="#kontakt">Kontakt</a>
+          </p>
+        </div>
+        <div class="col-lg-4 col-12">
+          <h6>Rechtliches:</h6>
+          <p>
+            <a href="">Impressum</a>
+            <br>
+            <a href="">Datenschutz</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <!--JavaScript-->
   <script src="assets/js/script.js"></script>

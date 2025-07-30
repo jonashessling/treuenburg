@@ -249,7 +249,8 @@ h6 {
 }
 
 .slider-item {
-  flex: 0 0 auto; /* Wichtig: verhindert Zusammendrücken */
+  flex: 0 0 auto;
+  /* Wichtig: verhindert Zusammendrücken */
   width: 300px;
   height: 500px;
   background-color: #021F51;
@@ -310,6 +311,10 @@ h6 {
   margin: 0 20px !important;
 }
 
+.content-container-section-4 a {
+  margin: 0 20px !important;
+}
+
 /*------------------------------------------------------------------------------------------ Section-5: */
 
 .section-5 {
@@ -361,6 +366,7 @@ h6 {
   color: white;
   overflow: hidden;
   border-radius: 2px;
+  height: 500px;
 }
 
 .content-container-team h5 {
@@ -378,7 +384,11 @@ h6 {
   left: 0;
   right: 0;
   height: 100%;
-  background: linear-gradient(to top, #021F51, rgba(3, 42, 77, 0));
+  background: linear-gradient(to top,
+      #021F51 0%,
+      rgba(3, 42, 77, 0.8) 10%,
+      rgba(3, 42, 77, 0.4) 40%,
+      rgba(3, 42, 77, 0) 100%);
   z-index: 1;
 }
 
@@ -396,13 +406,17 @@ h6 {
   padding: 150px 0;
 }
 
+.heading-contact {
+  margin-top: 50px !important;
+}
+
 .content-container-section-7 {
   padding: 50px 20px;
   background-color: #021F51;
   border-radius: 2px;
 }
 
-.content-container-section-7 h3 {
+.content-container-section-7 h2 {
   color: white !important;
 }
 
@@ -419,7 +433,41 @@ h6 {
   margin: 0 auto;
 }
 
+.content-container-section-7 a {
+  width: 100%;
+}
+
+/*------------------------------------------------------------------------------------------ Footer: */
+
+footer {
+  background-color: #021F51;
+  padding: 20px 0 10px;
+}
+
+footer img {
+  width: 200px;
+}
+
+footer p {
+  color: white !important;
+}
+
+footer a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+footer h6 {
+  color: white !important;
+}
+
 /*------------------------------------------------------------------------------------------ Mediaquery: */
+
+@media (min-width: 992px) {
+  .content-container-section-4 {
+    min-height: 500px;
+  }
+}
 
 @media (max-width: 768px) {
   .logo-nav {
