@@ -444,6 +444,13 @@ footer {
   padding: 20px 0 10px;
 }
 
+footer hr {
+  width: 10% !important;
+  border: 1px solid white !important;
+  opacity: 100%;
+  margin: 10px 0 !important;
+}
+
 footer img {
   width: 200px;
 }
